@@ -1,0 +1,1060 @@
+@import url(base/_base.css);
+@import url(fonts/fonts.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.main-container {
+  background-color: white;
+  margin: 0 auto;
+  width: 1440px;
+  font-family: "Roboto", sans-serif;
+}
+
+.main-container header {
+  background-image: url(../img/Background.png);
+  height: 700px;
+  color: white;
+  padding-top: 46px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.main-container header .container {
+  margin: 0 auto;
+  width: 940px;
+}
+
+.main-container header .container .first-leyer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.main-container header .container .first-leyer .log-in-sing-up-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-container header .container .first-leyer .log-in-sing-up-container .sign-up {
+  height: 34px;
+  width: 90px;
+  border: 1px solid white;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: -10px;
+}
+
+.main-container header .container .container2 {
+  width: 940px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  align-items: center;
+  margin-top: 100px;
+  height: 157px;
+  font-size: 35px;
+  line-height: 35px;
+  font-weight: 700;
+  margin: 200px auto;
+}
+
+.main-container header .container .container2 .hidden-text {
+  display: none;
+}
+
+.main-container header .container .container2 .SHARE-YOUR {
+  margin-left: 10px;
+}
+
+.main-container header .container .container2 .holiday-dream {
+  margin-left: -20px;
+}
+
+.main-container header .container .container2 .text1 {
+  font-size: 15px;
+  font-size: 15px;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.main-container header .container .container2 .button1 {
+  font-size: 16px;
+  width: 225px;
+  height: 40px;
+  border: none;
+  border-radius: 15px;
+  background-color: #FF4E50;
+  margin-left: 10px;
+  color: white;
+}
+
+.main-container .container {
+  margin: 0 auto;
+  width: 940px;
+}
+
+.main-container .container .first-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 31px;
+  margin-bottom: 41px;
+}
+
+.main-container .container .first-title .how {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.main-container .container-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-container .container-cards .first-card,
+.main-container .container-cards .Second-card,
+.main-container .container-cards .third-card {
+  width: 300px;
+  height: 400px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.main-container .container-cards .first-card .other,
+.main-container .container-cards .first-card .other2,
+.main-container .container-cards .first-card .other3,
+.main-container .container-cards .Second-card .other,
+.main-container .container-cards .Second-card .other2,
+.main-container .container-cards .Second-card .other3,
+.main-container .container-cards .third-card .other,
+.main-container .container-cards .third-card .other2,
+.main-container .container-cards .third-card .other3 {
+  position: absolute;
+  bottom: 20px;
+  margin-left: 24px;
+}
+
+.main-container .container-cards .first-card .button2,
+.main-container .container-cards .Second-card .button2,
+.main-container .container-cards .third-card .button2 {
+  font-size: 13px;
+  background-color: #C83F49;
+  color: white;
+  height: 20px;
+  width: 70px;
+  border: none;
+  border-radius: 25px;
+  margin-bottom: 30px;
+}
+
+.main-container .container-cards .first-card .up-text,
+.main-container .container-cards .first-card .up-text2,
+.main-container .container-cards .first-card .up-text3,
+.main-container .container-cards .Second-card .up-text,
+.main-container .container-cards .Second-card .up-text2,
+.main-container .container-cards .Second-card .up-text3,
+.main-container .container-cards .third-card .up-text,
+.main-container .container-cards .third-card .up-text2,
+.main-container .container-cards .third-card .up-text3 {
+  margin-bottom: 32px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+
+.main-container .container-cards .first-card .low-text,
+.main-container .container-cards .first-card .low-text2,
+.main-container .container-cards .first-card .low-text3,
+.main-container .container-cards .Second-card .low-text,
+.main-container .container-cards .Second-card .low-text2,
+.main-container .container-cards .Second-card .low-text3,
+.main-container .container-cards .third-card .low-text,
+.main-container .container-cards .third-card .low-text2,
+.main-container .container-cards .third-card .low-text3 {
+  color: white;
+}
+
+.main-container .container-cards .Second-card {
+  background-image: url(../img/Step\ 1\ image\ \(1\).png);
+  margin: 0 21px 0 21px;
+}
+
+.main-container .container-cards .Second-card .button-steo2 {
+  font-size: 13px;
+  background-color: #C83F49;
+  color: white;
+  height: 20px;
+  width: 70px;
+  border: none;
+  border-radius: 25px;
+  margin-bottom: 30px;
+}
+
+.main-container .container-cards .q {
+  background-image: url(../img/Step\ 1\ image.png);
+}
+
+.main-container .container-cards .third-card {
+  background-image: url(../img/Step\ 1\ image\ \(2\).png);
+}
+
+.main-container .just-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.main-container .just-container .Meet-a-partner-holiday {
+  margin-left: 54px;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 101px;
+  margin-bottom: 40px;
+}
+
+.main-container .avatars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 941px;
+  margin: auto;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.main-container .avatars .ava1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 461px;
+  height: 208px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.main-container .avatars .ava1 .first-avatar {
+  width: 221px;
+  height: 205px;
+}
+
+.main-container .avatars .ava1 .first-avatar .img-avatar {
+  margin: 0 50px 0 51px;
+}
+
+.main-container .avatars .ava1 .first-avatar .first-leyer-avatar1 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin: 17px 0 12px 0;
+}
+
+.main-container .avatars .ava1 .first-avatar .second-leyer-avatar1 {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #666666;
+}
+
+.main-container .avatars .ava2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 461px;
+  height: 224px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.main-container .avatars .ava2 .second-avatar {
+  width: 221px;
+  height: 224px;
+}
+
+.main-container .avatars .ava2 .second-avatar .img-avatar {
+  margin: 0 50px 0 51px;
+}
+
+.main-container .avatars .ava2 .second-avatar .first-leyer-avatar2 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin: 17px 0 12px 0;
+}
+
+.main-container .avatars .ava2 .second-avatar .second-leyer-avatar2 {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #666666;
+}
+
+.button4 {
+  border: 2px solid red;
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: red;
+  font-weight: 700;
+  margin-top: 60px;
+  margin-bottom: 102px;
+  cursor: pointer;
+}
+
+.container2 {
+  width: 940px;
+  height: 1037px;
+  margin: 0 auto;
+  margin-bottom: 95px;
+}
+
+.container2 .Discover-text {
+  width: 413px;
+  height: 32px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+.container2 .images {
+  height: 970px;
+}
+
+.container2 .images .images-leyer {
+  height: 310px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container2 .images .images-leyer .img {
+  height: 310px;
+  width: 300px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: white;
+  text-align: center;
+}
+
+.container2 .images .images-leyer .img .p {
+  margin-top: 142px;
+}
+
+.container2 .images .images-leyer .img .p1 {
+  margin-top: 128px;
+}
+
+.container2 .images .images-leyer .img-second {
+  height: 310px;
+  width: 620px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: white;
+  text-align: center;
+}
+
+.container2 .images .images-leyer .img-second .p {
+  margin-top: 142px;
+}
+
+.container2 .images .images-leyer .img1 {
+  background-image: url(../img/Bitmap\ \(1\).png);
+}
+
+.container2 .images .images-leyer .img2 {
+  background-image: url(../img/Bitmap\ \(2\).png);
+  margin: 0 20px;
+}
+
+.container2 .images .images-leyer .img3 {
+  background-image: url(../img/Bitmap\ \(3\).png);
+}
+
+.container2 .images .images-leyer .img4 {
+  background-image: url(../img/Bitmap\ \(4\).png);
+  margin-right: 20px;
+}
+
+.container2 .images .images-leyer .img5 {
+  background-image: url(../img/Bitmap\ \(5\).png);
+}
+
+.container2 .images .images-leyer .img6 {
+  background-image: url(../img/Bitmap\ \(6\).png);
+  margin-right: 20px;
+}
+
+.container2 .images .images-leyer .img7 {
+  background-image: url(../img/Bitmap\ \(7\).png);
+}
+
+.Crate-your-holiday-activity {
+  width: 482px;
+  height: 160px;
+  margin: 0 auto;
+  margin-bottom: 136px;
+}
+
+.Crate-your-holiday-activity .Meet-a-partner-text {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  color: black;
+}
+
+.Crate-your-holiday-activity .questions {
+  width: 481px;
+  height: 89px;
+}
+
+.Crate-your-holiday-activity .questions .hi {
+  margin-top: 43px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.Crate-your-holiday-activity .questions .input-and-button {
+  height: 40px;
+  width: 482px;
+}
+
+.Crate-your-holiday-activity .questions .input-and-button .text {
+  width: 299px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #D4D4D4;
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+  border-radius: 3px;
+}
+
+.Crate-your-holiday-activity .questions .input-and-button .button-Search {
+  width: 172.12px;
+  height: 40px;
+  background: #FF4E50;
+  border-radius: 40px;
+  border: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+}
+
+.footer {
+  width: 1440px;
+  height: 252px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 3px solid #FF4E50;
+}
+
+.footer .forst-column {
+  height: 224px;
+  width: 119px;
+  margin: 38px 122px 166px 249px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FF4E50;
+}
+
+.footer .second-column {
+  height: 184px;
+  width: 114px;
+  margin-top: 40px;
+  margin-right: 125px;
+}
+
+.footer .second-column .Company {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #444444;
+  margin-bottom: 11px;
+}
+
+.footer .second-column .contain-er {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
+  color: #999999;
+}
+
+.footer .third-column {
+  margin-top: 40px;
+  margin-right: 287px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #444444;
+}
+
+.footer .fourth-column {
+  width: 113px;
+  height: 43px;
+  margin-top: 40px;
+}
+
+.footer .fourth-column .des {
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  color: #CCCCCC;
+  text-align: end;
+  margin-bottom: 7px;
+}
+
+@media screen and (max-width: 1440px) and (min-width: 768px) {
+  body {
+    margin: 0;
+  }
+
+  .main-container {
+    width: 768px;
+  }
+
+  .main-container header {
+    height: 700px;
+    padding-top: 40px;
+    margin-bottom: 95px;
+  }
+
+  .main-container header .container {
+    width: 670px;
+    height: 436px;
+  }
+
+  .main-container header .container .container2 {
+    width: 470px;
+    height: 252px;
+  }
+
+  .main-container .container {
+    width: 768px;
+  }
+
+  .main-container .container .first-title .how {
+    font-size: 22px;
+    line-height: 27px;
+  }
+
+  .main-container .container .container-cards {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .main-container .container .container-cards .first-card {
+    width: 236px;
+    -ms-flex-line-pack: center;
+    align-content: center;
+  }
+
+  .main-container .container .container-cards .Second-card {
+    width: 236px;
+  }
+
+  .main-container .container .container-cards .Second-card .other2 {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 14px;
+  }
+
+  .main-container .container .container-cards .third-card {
+    width: 236px;
+  }
+
+  .main-container .people .just-container .Meet-a-partner-holiday {
+    margin-top: 95px;
+    margin-left: 0;
+    margin-bottom: 35px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .main-container .people .avatars {
+    width: 492px;
+    height: 467px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .main-container .people .button4 {
+    margin-top: 0;
+    margin-bottom: 95px;
+  }
+
+  .main-container .container2 {
+    width: 748px;
+    height: 1031px;
+  }
+
+  .main-container .container2 .Discover-text {
+    width: 350px;
+    height: 27px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0px;
+  }
+
+  .main-container .container2 .images-leyer .img {
+    width: 236px;
+  }
+
+  .main-container .container2 .images-leyer .img-second {
+    width: 492px;
+  }
+
+  .main-container .footer {
+    width: 768px;
+  }
+
+  .main-container .footer .forst-column {
+    margin: 38px 108px 166px 39px;
+  }
+
+  .main-container .footer .second-column {
+    margin-right: 56px;
+  }
+
+  .main-container .footer .third-column {
+    margin-right: 118px;
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 320px) {
+  body {
+    margin: 0;
+  }
+
+  .main-container {
+    width: 320px;
+    margin: 0 auto;
+  }
+
+  .main-container header {
+    width: 320px;
+    height: 540px;
+    padding-top: 40px;
+    margin-bottom: 95px;
+    margin: 0;
+    background-size: cover;
+  }
+
+  .main-container header .container {
+    width: 320px;
+    height: 436px;
+  }
+
+  .main-container header .container .first-leyer {
+    width: 320px;
+  }
+
+  .main-container header .container .container2 {
+    width: 320px;
+    height: 252px;
+    margin: 100px auto;
+  }
+
+  .main-container header .container .container2 .container2-info {
+    text-align: center;
+  }
+
+  .main-container header .container .container2 .container2-info .holiday-dream {
+    margin: 0;
+  }
+
+  .main-container .container {
+    width: 320px;
+  }
+
+  .main-container .container .first-title .how {
+    font-size: 22px;
+    line-height: 27px;
+  }
+
+  .main-container .container .container-cards {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .main-container .container .container-cards .first-card {
+    width: 300px;
+    height: 240px;
+  }
+
+  .main-container .container .container-cards .Second-card {
+    width: 300px;
+    height: 240px;
+    margin: 10px 0 10px 0;
+  }
+
+  .main-container .container .container-cards .Second-card .other2 {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 14px;
+  }
+
+  .main-container .container .container-cards .third-card {
+    width: 300px;
+    height: 240px;
+  }
+
+  .main-container .people .just-container .Meet-a-partner-holiday {
+    margin-top: 95px;
+    margin-left: 0;
+    margin-bottom: 35px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .main-container .people .avatars {
+    width: 236px;
+    height: 890px;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    display: block;
+  }
+
+  .main-container .people .avatars .ava1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 236px;
+    height: 448px;
+    margin-bottom: 15px;
+  }
+
+  .main-container .people .avatars .ava2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 236px;
+    height: 427px;
+  }
+
+  .main-container .people .avatars .ava2 .second-avatar {
+    margin-bottom: 15px;
+  }
+
+  .main-container .people .button4 {
+    margin-bottom: 35px;
+  }
+
+  .main-container .container2 {
+    width: 300px;
+    height: 987px;
+    margin-bottom: 50px;
+  }
+
+  .main-container .container2 .Discover-text {
+    width: 280px;
+    height: 54px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+  }
+
+  .main-container .container2 .images {
+    width: 300px;
+    height: 900px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .main-container .container2 .images .images-leyer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 300px;
+    height: 250px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .main-container .container2 .images .images-leyer .img {
+    width: 300px;
+    height: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: black;
+  }
+
+  .main-container .container2 .images .images-leyer .img .p {
+    margin: 0;
+  }
+
+  .main-container .container2 .images .images-leyer .img .p1 {
+    margin: 0;
+  }
+
+  .main-container .container2 .images .images-leyer .img1 {
+    background-image: url(../img/Bitmap\ 320px\(1\).png);
+    margin-bottom: 10px;
+  }
+
+  .main-container .container2 .images .images-leyer .img2 {
+    background-image: url(../img/Bitmap\ 320px\ \(7\).png);
+    margin: 0;
+  }
+
+  .main-container .container2 .images .images-leyer .img3 {
+    background-image: url(../img/Bitmap\ 320px\(2\).png);
+    margin-top: 10px;
+  }
+
+  .main-container .container2 .images .images-leyer .img4 {
+    background-image: url(../img/Bitmap\ 320px\ \(3\).png);
+    margin-bottom: 10px;
+  }
+
+  .main-container .container2 .images .images-leyer .img5 {
+    background-image: url(../img/Bitmap\ 320px\(4\).png);
+    margin-bottom: 10px;
+  }
+
+  .main-container .container2 .images .images-leyer .img6 {
+    background-image: url(../img/Bitmap\ 320px\ \(5\).png);
+    margin-bottom: 10px;
+  }
+
+  .main-container .container2 .images .images-leyer .img7 {
+    background-image: url(../img/Bitmap\ 320px\ \(6\).png);
+  }
+
+  .main-container .container2 .images .images-leyer .img-second {
+    width: 300px;
+    height: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: black;
+  }
+
+  .main-container .container2 .images .images-leyer .img-second .p {
+    margin: 0;
+  }
+
+  .main-container .container2 .images .leyer {
+    width: 300px;
+    height: 380px;
+  }
+
+  .main-container .Crate-your-holiday-activity {
+    width: 320px;
+    height: 192px;
+    margin-bottom: 40px;
+  }
+
+  .main-container .Crate-your-holiday-activity .just-container {
+    width: 280px;
+    height: 54px;
+    margin: 0 auto;
+  }
+
+  .main-container .Crate-your-holiday-activity .just-container .Meet-a-partner-text {
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .main-container .Crate-your-holiday-activity .questions {
+    width: 320px;
+    height: 129px;
+  }
+
+  .main-container .Crate-your-holiday-activity .questions .hi {
+    margin-top: 9px;
+    margin-bottom: 15px;
+  }
+
+  .main-container .Crate-your-holiday-activity .questions .input-and-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 90px;
+    width: 280px;
+    margin: 0 auto;
+  }
+
+  .main-container .Crate-your-holiday-activity .questions .input-and-button .text {
+    width: 274px;
+    height: 40px;
+  }
+
+  .main-container .Crate-your-holiday-activity .questions .input-and-button .button-Search {
+    width: 280px;
+    height: 40px;
+    margin-top: 10px;
+  }
+
+  .main-container .footer {
+    width: 320px;
+    height: 215px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .main-container .footer .forst-column {
+    margin: 21px 100px 13px 101px;
+    width: 119px;
+    height: 20px;
+  }
+
+  .main-container .footer .second-column {
+    width: 280px;
+    height: 70px;
+    margin: 0 auto;
+  }
+
+  .main-container .footer .second-column .Company {
+    margin-bottom: 1px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+  }
+
+  .main-container .footer .second-column .contain-er {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    width: 280px;
+    height: 52px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-line-pack: distribute;
+    align-content: space-around;
+  }
+
+  .main-container .footer .third-column {
+    margin: 6px auto 14px auto;
+  }
+
+  .main-container .footer .fourth-column {
+    margin: 0 auto;
+  }
+
+  .main-container .footer .fourth-column .des {
+    text-align: center;
+  }
+}
